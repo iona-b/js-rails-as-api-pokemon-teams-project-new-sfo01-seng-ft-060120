@@ -9,7 +9,7 @@ const fetchAllTrainers = () => {
 }
 fetchAllTrainers()
 
-const showAllTrainers = (trainer) => {
+const showAllTrainers = (trainer) => { 
     let main = document.querySelector('main')
     let div = document.createElement('div')
     div.id = `div_${trainer.id}`
